@@ -1,0 +1,10 @@
+version: '3.7'
+
+
+services:
+  agent-opera:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: spia-agent-opera
+    env_file: .env
